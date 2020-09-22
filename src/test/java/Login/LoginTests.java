@@ -22,9 +22,9 @@ public class LoginTests {
         //get page title
         System.out.println(driver.getTitle());
         //locate username field
-        driver.findElement(By.id("login_field")).sendKeys("Testorna");
+        driver.findElement(By.id("login_field")).sendKeys("");
         //locate password field
-        driver.findElement(By.id("password")).sendKeys("WONDERFULSIGNSANDWONDERS");
+        driver.findElement(By.id("password")).sendKeys("");
         //Click on the sign in button
         driver.findElement(By.name("commit")).click();
         Thread.sleep(10000);
